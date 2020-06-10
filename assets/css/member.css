@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.txtedit{
+   display: none;
+   width: 98%;
+}
+.dataTables_filter {
+text-align: left !important;
+padding-left:10px;
+float: none!important;
+}
+
+.dataTables_filter input{
+border-radius: 6px;
+max-width: 380px;
+padding: 0.25rem;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+border: 1px solid #dee2e6;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.tablerowselected {
+  background-color:#f0f0f0 !important;
+}
+.tableroweditmode {
+  background-color:#FFFBE5 !important;
+}
+.rowcol{
+  padding:10px;
+}
+.editable {
+  background-color:white;
+  border: 1px dotted grey;
+}

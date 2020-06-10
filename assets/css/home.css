@@ -1,0 +1,38 @@
+.team-block{
+  width: 100%;min-height: 230px;
+}
+.card {
+  margin-bottom: .75rem;
+  }
+.card-header {
+  cursor: pointer;
+}
+.card-header span{
+   display: inline-block;
+   float: right;
+   color:#3B97ED;
+   cursor: pointer;
+}
+.card-header h6{
+   color:#3B97ED!important;;
+   display: inline-block;
+   cursor: pointer;
+}
+
+  [data-toggle="collapse"] .fa:before {
+    content: "\f139";
+  }
+
+  [data-toggle="collapse"].collapsed .fa:before {
+    content: "\f13a";
+  }
+
+  .subscription-form input {
+      height: auto;
+  }
+  .prime {
+    position:absolute;bottom:20px;left:20px;
+  }
+.card{
+  min-width:240px;
+}

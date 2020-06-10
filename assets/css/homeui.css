@@ -1,0 +1,307 @@
+.label {
+    background-color: #d1dade;
+    color: #5e5e5e;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    padding: 3px 8px;
+    text-shadow: none;
+    border-radius: 0.25em;
+    line-height: 1;
+    white-space: nowrap;
+}
+.outer-weekday {
+	background: #EDF6FF;
+	border-radius: 300px;
+	height:134px;
+	width:76px;
+  padding:10px;
+  cursor: pointer;
+}
+.inner-weekday {
+	position: relative;
+	background: white;
+	border-radius: 50%;
+	height:58px;
+	width:58px;
+	margin: 0px 0px 0px 0px;
+  cursor: pointer;
+	padding:13px;
+}
+.current-day {
+  background:#53A0F3;
+}
+.inside-txt{
+  color:#7B7B7B;
+}
+.current-day .inside-txt{
+  color:white;
+}
+#heading_title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 440px;
+}
+.select-events{
+  height:54px;
+}
+.select-events:hover{
+  background-color: #E9F4FE;
+  color:white;
+  cursor: pointer;
+}
+.high-priority-blank {
+	width:20px;
+	height:20px;
+  background-image: url('../../assets/icons/priority/high_blank.svg');
+}
+.low-priority-blank {
+	width:20px;
+	height:20px;
+	background-image: url('../../assets/icons/priority/low_blank.svg');
+}
+
+.meeting-activity-list .meeting-element {
+  border-bottom: 1px solid #e7eaec;
+}
+.meeting-element:first-child {
+  margin-top: 0;
+}
+.meeting-element {
+  padding-bottom: 15px;
+}
+.meeting-element,
+.meeting-element .media {
+  margin-top: 15px;
+}
+.meeting-element,
+.media-body {
+  overflow: hidden;
+}
+.meeting-element > a img {
+  margin-right: 10px;
+}
+.meeting-element img.rounded-circle,
+.dropdown-messages-box img.rounded-circle {
+  width: 38px;
+  height: 38px;
+}
+.meeting-element .well {
+  border: 1px solid #e7eaec;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+  font-size: 11px;
+  line-height: 16px;
+}
+.meeting-element .actions {
+  margin-top: 10px;
+}
+.meeting-element .photos {
+  margin: 10px 0;
+}
+.dropdown-messages-box .dropdown-item:focus,
+.dropdown-messages-box .dropdown-item:hover {
+  background-color: inherit;
+}
+.meeting-photo {
+  max-height: 180px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.btn-white {
+    color: inherit;
+    background: white;
+    border: 1px solid #e7eaec;
+}
+
+.ibox {
+  clear: both;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 0;
+  border-radius: 100px;
+}
+.ibox.collapsed .ibox-content {
+  display: none;
+}
+.ibox.collapsed .fa.fa-chevron-up:before {
+  content: "\f078";
+}
+.ibox.collapsed .fa.fa-chevron-down:before {
+  content: "\f077";
+}
+.ibox:after,
+.ibox:before {
+  display: table;
+}
+.ibox-title {
+  background-color: #ffffff;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 1px;
+  color: inherit;
+  margin-bottom: 0;
+  padding: 15px 90px 8px 15px;
+  min-height: 48px;
+  position: relative;
+  clear: both;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 2px 2px 0 0;
+}
+.ibox-content {
+  background-color: #ffffff;
+  color: inherit;
+  padding: 15px 20px 20px 20px;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid;
+  border-width: 1px;
+}
+.ibox-footer {
+  color: inherit;
+  border-top: 1px solid #e7eaec;
+  font-size: 90%;
+  background: #ffffff;
+  padding: 10px 15px;
+}
+.ibox-content {
+  clear: both;
+}
+.ibox-heading {
+  background-color: #f3f6fb;
+  border-bottom: none;
+}
+.ibox-heading h3 {
+  font-weight: 200;
+  font-size: 24px;
+}
+.ibox-title h5 {
+  display: inline-block;
+  margin: 0 0 7px;
+  padding: 0;
+  text-overflow: ellipsis;
+  float: none;
+}
+.ibox-title .label {
+  margin-left: 4px;
+}
+.ibox-title .pull-right {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.ibox-tools {
+  display: block;
+  float: none;
+  margin-top: 0;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 0;
+  text-align: right;
+}
+.ibox-tools a {
+  cursor: pointer;
+  margin-left: 5px;
+  color: #c4c4c4 !important;
+}
+.ibox-tools a.btn-primary {
+  color: #fff !important;
+}
+.ibox-tools .dropdown-menu > li > a {
+  padding: 4px 10px;
+  font-size: 12px;
+  color: #676a6c !important;
+}
+.ibox .ibox-tools.open > .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+.ibox-tools .dropdown-toggle::after {
+  display: none;
+}
+.ibox .label {
+  font-size: 12px;
+}
+.badge {
+  background-color: #d1dade;
+  color: #5e5e5e;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-shadow: none;
+  white-space: nowrap;
+}
+.label-primary,
+.badge-primary {
+  background-color: #1ab394;
+  color: #FFFFFF;
+}
+.label-success,
+.badge-success {
+  background-color: #1c84c6;
+  color: #FFFFFF;
+}
+.label-warning,
+.badge-warning {
+  background-color: #f8ac59;
+  color: #FFFFFF;
+}
+.label-warning-light,
+.badge-warning-light {
+  background-color: #f8ac59;
+  color: #ffffff;
+}
+.label-danger,
+.badge-danger {
+  background-color: #ed5565;
+  color: #FFFFFF;
+}
+.label-info,
+.badge-info {
+  background-color: #23c6c8;
+  color: #FFFFFF;
+}
+.label-inverse,
+.badge-inverse {
+  background-color: #262626;
+  color: #FFFFFF;
+}
+.label-white,
+.badge-white {
+  background-color: #FFFFFF;
+  color: #5E5E5E;
+}
+.label-white,
+.badge-disable {
+  background-color: #2A2E36;
+  color: #8B91A0;
+}
+.truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+	font-size: 12px;
+}
+.calendar-desc label{
+	cursor: pointer;
+}
+.calendar-desc label:hover{
+	color:#3B97ED;
+}
+a:hover{
+	color:#3B97ED;
+}
+.well > table{
+	font-size: 12px;
+}

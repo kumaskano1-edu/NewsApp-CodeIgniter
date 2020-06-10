@@ -1,0 +1,23 @@
+#find_url {
+    padding: 0 5px;
+    margin-right: 10px;
+}
+input {
+    border: 1px solid lightgrey;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 0 0px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Avenir';
+    color:#28a745;
+}
+.submit {
+    width:100px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.alert p {
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
